@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice</title>
 </head>
 <style>
-    .table1, td ,th {
+    .table1,
+    td,
+    th {
         border-style: solid;
         text-align: center;
         border-collapse: collapse;
@@ -16,7 +19,13 @@
         border-width: 2px;
     }
 
-    .time , .j, .h, .c, .a, .e , .f{
+    .time,
+    .j,
+    .h,
+    .c,
+    .a,
+    .e,
+    .f {
         font-weight: bold;
     }
 
@@ -48,7 +57,10 @@
         empty-cells: show;
     }
 
-    .form1, .form2, .form3 , .form4 {
+    .form1,
+    .form2,
+    .form3,
+    .form4 {
         padding: 5px;
         border-style: solid;
         border-width: 1px;
@@ -60,6 +72,7 @@
         opacity: 75%;
     }
 </style>
+
 <body>
     <ol>
         <li>Coffee</li>
@@ -130,21 +143,21 @@
             </ol>
         </li>
         <li>List Item 2
-                <ol>
-                    <li>Nested Item 2.1</li>
-                    <li>Nested Item 2.2
-                        <ul style="list-style-type: circle;">
-                            <li>Nested Item 2.2.1</li>
-                            <li>Nested Item 2.2.2
-                                <ul style="list-style-type: square;">
-                                    <li>Nested Item 2.2.2.1</li>
-                                    <li>Nested Item 2.2.2.2</li>
-                                </ul>
-                            </li>
-                            <li>Nested Item 2.2.3</li>
-                    </li>
-                    <li>Nested Item 2.3</li>
-                </ol>
+            <ol>
+                <li>Nested Item 2.1</li>
+                <li>Nested Item 2.2
+                    <ul style="list-style-type: circle;">
+                        <li>Nested Item 2.2.1</li>
+                        <li>Nested Item 2.2.2
+                            <ul style="list-style-type: square;">
+                                <li>Nested Item 2.2.2.1</li>
+                                <li>Nested Item 2.2.2.2</li>
+                            </ul>
+                        </li>
+                        <li>Nested Item 2.2.3</li>
+                </li>
+                <li>Nested Item 2.3</li>
+            </ol>
         </li>
         <li>List Item 3
             <ul style="list-style-type: disc;">
@@ -165,8 +178,10 @@
             <td colspan="7">ACADEMIC, YEAR 2025-2026</td>
         </tr>
         <tr>
-            <td rowspan="2"; colspan="2">Course:B.TECH</td>
-            <td rowspan="3"; colspan="4"; style="background-color: rgb(239, 194, 145); font-weight: bold; font-size: x-large;">RAJENDRA JANGID</td>
+            <td rowspan="2" ; colspan="2">Course:B.TECH</td>
+            <td rowspan="3" ; colspan="4" ;
+                style="background-color: rgb(239, 194, 145); font-weight: bold; font-size: x-large;">RAJENDRA JANGID
+            </td>
             <td class="empty">&nbsp;</td>
         </tr>
         <tr>
@@ -197,7 +212,7 @@
             <td class="empty"></td>
             <td class="empty"></td>
             <td rowspan="2" class="a">1AIML-A : PSC LT:105</td>
-            <td class="c"; rowspan="2">1CSE-C : PSC LT:101</td>
+            <td class="c" ; rowspan="2">1CSE-C : PSC LT:101</td>
         </tr>
         <tr>
             <td class="time">10:10-11:00</td>
@@ -207,7 +222,7 @@
         <tr>
             <td class="time">11:05-11:55</td>
             <td class="empty"></td>
-            <td rowspan="2" class="c">1CSE-C : OST-CE Lab (C2)607 <br> LT:101</td> 
+            <td rowspan="2" class="c">1CSE-C : OST-CE Lab (C2)607 <br> LT:101</td>
             <td class="empty"></td>
             <td rowspan="2" class="e">1CSE-E : OST-CE Lab (E2)603 <br> LT:206</td>
             <td rowspan="2" class="a">1AIML-A : OST-CE Lab (A1)603 <br> LT:105</td>
@@ -223,7 +238,7 @@
         </tr>
         <tr style=" background-color: rgb(176, 176, 176)">
             <td class="time">12:50-01:50</td>
-            <td colspan="6"; style="font-weight: bold;">LUNCH BREAK</td>
+            <td colspan="6" ; style="font-weight: bold;">LUNCH BREAK</td>
         </tr>
         <tr>
             <td class="time">1:50-02:35</td>
@@ -255,22 +270,24 @@
             <td class="empty"></td>
         </tr>
 
-    </table> <hr>
+    </table>
+    <hr>
 
     <form class="form1">
         <label for="fname">First Name:</label><br>
-        <input type="text"; name="fname"; value="first name"><br>
+        <input type="text" ; name="fname" ; value="first name"><br>
         <label for="lname">Last Name:</label><br>
-        <input type="text"; name="lname"; value="last name"><br>
+        <input type="text" ; name="lname" ; value="last name"><br>
         <button>Submit</button>
-    </form> <hr>
+    </form>
+    <hr>
 
     <form class="form2">
         <label for="fname">First name:</label>
-        <input type="text"; name="fname";><br>
+        <input type="text" ; name="fname" ;><br>
         <label for="lname">Last name</label>
         <input type="text"><br>
-        <input type="radio">Male 
+        <input type="radio">Male
         <input type="radio" name="gender">Female <br>
         <label for="EmID">Employee ID:</label>
         <input type="text"><br>
@@ -279,15 +296,16 @@
         <label for="Phno">Phone Number:</label>
         <input type="number"><br>
         <button>Submit</button>
-    </form> <hr>
+    </form>
+    <hr>
 
     <form class="form3">
         <label for="fname">First name:</label>
-        <input type="text"; name="fname";><br>
+        <input type="text" ; name="fname" ;><br>
         <label for="lname">Last name</label>
         <input type="text"><br>
         <label for="Dob">Birthday:</label>
-        <input type="text"; value="mm/dd/yyyy"><br>
+        <input type="text" ; value="mm/dd/yyyy"><br>
         <label for="gender">Gender:</label><br>
         <input type="radio" name="gender">
         <label for="gender">Male</label><br>
@@ -300,9 +318,11 @@
         <input type="checkbox">
         <label for="socialm">Use Twitter</label><br>
         <button>Submit</button>
-    </form> <hr>
+    </form>
+    <hr>
 
     <form class="form4">
+
         <head>Registration Form</head> <br><br>
         <label for="fname">First Name : </label>
         <input type="text" value="Enter First Name"> <br>
@@ -331,13 +351,14 @@
             <option value="Student">Student</option>
             <option value="teacher">Teacher</option>
             <option value="Admin">Worker</option>
-        </select> 
+        </select>
         <br>
         <label for="bio">Bio</label>
         <textarea name="bio" placeholder="Share few line about yourself..."></textarea> <br>
-        <input type="reset"> 
+        <input type="reset">
         <input type="submit">
-    </form> <hr>
+    </form>
+    <hr>
 
     <h1>Git parctice</h1>
 
@@ -347,6 +368,7 @@
 
     <p>Checking after closing browser</p>
     <h1>kkkkkkkk</h1>
-
+    <h2>jjjjjjj</h2>
 </body>
+
 </html>
