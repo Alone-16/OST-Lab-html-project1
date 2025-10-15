@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<style>
+    .table1, td ,th {
+        border-style: solid;
+        text-align: center;
+        border-collapse: collapse;
+        padding: 3px;
+        white-space: nowrap;
+        font-family: Arial, Helvetica, sans-serif;
+        border-width: 2px;
+    }
+
+    .time , .j, .h, .c, .a, .e , .f{
+        font-weight: bold;
+    }
+
+    .j {
+        background-color: rgb(135, 135, 211);
+    }
+
+    .h {
+        background-color: rgb(180, 139, 219);
+    }
+
+    .a {
+        background-color: rgb(145, 218, 145);
+    }
+
+    .c {
+        background-color: rgb(243, 188, 130);
+    }
+
+    .f {
+        background-color: rgb(255, 151, 151);
+    }
+
+    .e {
+        background-color: lightblue;
+    }
+
+    .empty {
+        empty-cells: show;
+    }
+
+    .form1, .form2, .form3 , .form4 {
+        padding: 5px;
+        border-style: solid;
+        border-width: 1px;
+        width: fit-content;
+        line-height: 1.5;
+    }
+
+    input {
+        opacity: 75%;
+    }
+</style>
+<body>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea
+            <ul style="list-style-type: disc;">
+                <li>Green tea</li>
+                <li>Black tea</li>
+            </ul>
+        </li>
+        <li>Milk</li>
+    </ol>
+
+    <hr>
+
+    <ul style="list-style-type: disc;">
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+    </ul>
+    <ol>
+        <li>1st item</li>
+        <li>2nd item</li>
+        <li>3rd item</li>
+        <li>4th item</li>
+    </ol>
+    <ul type="none">
+        <li>List item title
+            <ul>list item description</ul>
+        </li>
+        <li>List item title
+            <ul>list item description</ul>
+        </li>
+        <li>List item title
+            <ul>list item description</ul>
+        </li>
+    </ul>
+
+    <hr>
+
+    <ul>
+        <li>Fruits
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Mango</li>
+                <li>Orange</li>
+            </ul>
+        </li>
+        <li>Vegetables
+            <ul>
+                <li>Spinach</li>
+                <li>Cauliflower</li>
+                <li>Beetroot</li>
+            </ul>
+        </li>
+        <li>Creals</li>
+        <li>Nuts</li>
+    </ul>
+
+    <hr>
+
+    <ol type="I">
+        <li>List Item 1
+            <ol type="a">
+                <li>Nested Item 1.1</li>
+                <li>Nested Item 1.2</li>
+            </ol>
+        </li>
+        <li>List Item 2
+                <ol>
+                    <li>Nested Item 2.1</li>
+                    <li>Nested Item 2.2
+                        <ul style="list-style-type: circle;">
+                            <li>Nested Item 2.2.1</li>
+                            <li>Nested Item 2.2.2
+                                <ul style="list-style-type: square;">
+                                    <li>Nested Item 2.2.2.1</li>
+                                    <li>Nested Item 2.2.2.2</li>
+                                </ul>
+                            </li>
+                            <li>Nested Item 2.2.3</li>
+                    </li>
+                    <li>Nested Item 2.3</li>
+                </ol>
+        </li>
+        <li>List Item 3
+            <ul style="list-style-type: disc;">
+                <li>Nested Item 3.1</li>
+                <li>Nested Item 3.1</li>
+                <li>Nested Item 3.1</li>
+            </ul>
+        </li>
+    </ol>
+
+    <hr>
+
+    <table class="table1">
+        <tr>
+            <td colspan="7">NIMS UNIVERSITY, RAJASTHAN</td>
+        </tr>
+        <tr>
+            <td colspan="7">ACADEMIC, YEAR 2025-2026</td>
+        </tr>
+        <tr>
+            <td rowspan="2"; colspan="2">Course:B.TECH</td>
+            <td rowspan="3"; colspan="4"; style="background-color: rgb(239, 194, 145); font-weight: bold; font-size: x-large;">RAJENDRA JANGID</td>
+            <td class="empty">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>OST1</td>
+        </tr>
+        <tr>
+            <td colspan="2">Branch: CSE - AIML/CCVT/CSE/DS/GP/HBS/IT</td>
+            <td class="empty"></td>
+        </tr>
+        <tr>
+            <td colspan="7">EFFECTIVE FROM 2025-2026</td>
+        </tr>
+        <tr style="background-color: #d7d2d2; font-weight: bold;">
+            <th>TIME</th>
+            <th>MONDAY</th>
+            <th>TUESDAY</th>
+            <th>WEDNESDAY</th>
+            <th>THRUSDAY</th>
+            <th>FRIDAY</th>
+            <th>SATURDAY-1</th>
+            <th>SATURDAY-2</th>
+        </tr>
+        <tr>
+            <td class="time">09:15-10-05</td>
+            <td rowspan="2" class="j">1CSE-J : OST Lab (J1)607</td>
+            <td rowspan="2" class="h">1HBS-H : OST-CE Lab (H1)608 <br> LT:201</td>
+            <td rowspan="2" class="j">1CSE-J : OST Lab(E2)604</td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td rowspan="2" class="a">1AIML-A : PSC LT:105</td>
+            <td class="c"; rowspan="2">1CSE-C : PSC LT:101</td>
+        </tr>
+        <tr>
+            <td class="time">10:10-11:00</td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+        </tr>
+        <tr>
+            <td class="time">11:05-11:55</td>
+            <td class="empty"></td>
+            <td rowspan="2" class="c">1CSE-C : OST-CE Lab (C2)607 <br> LT:101</td> 
+            <td class="empty"></td>
+            <td rowspan="2" class="e">1CSE-E : OST-CE Lab (E2)603 <br> LT:206</td>
+            <td rowspan="2" class="a">1AIML-A : OST-CE Lab (A1)603 <br> LT:105</td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+        </tr>
+        <tr>
+            <td class="time">12:00-12:50</td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="j">1CSE-J : PSC LT:302</td>
+            <td class="empty"></td>
+        </tr>
+        <tr style=" background-color: rgb(176, 176, 176)">
+            <td class="time">12:50-01:50</td>
+            <td colspan="6"; style="font-weight: bold;">LUNCH BREAK</td>
+        </tr>
+        <tr>
+            <td class="time">1:50-02:35</td>
+            <td rowspan="2" class="f">1DSE-F : OST-CE Lab (F2)607 <br> LT:205</td>
+            <td rowspan="2" class="f">1DSE-F : OST-CE Lab (F2)607 <br> LT:205</td>
+            <td rowspan="2" class="c">1CSE-C : OST-CE Lab (C2)607 <br> LT:101</td>
+            <td rowspan="2" class="h">1HBS-H : OST-CE Lab (H1)608 <br> LT:201</td>
+            <td rowspan="2" class="e">1CSE-E : OST-CE Lab (E2)603 <br> LT:206</td>
+            <td rowspan="2" class="f">1DSE-F : PSC LT:205</td>
+            <td class="f">1DSE-F : PSC LT:205</td>
+        </tr>
+        <tr>
+            <td class="time">02:35-03:20</td>
+            <td class="empty"></td>
+        </tr>
+        <tr>
+            <td class="time">03:20-04:10</td>
+            <td rowspan="2" class="a">1AIML-A : OST-CE Lab (A2)603 <br> LT:105</td>
+            <td rowspan="2" class="a">1AIML-A : OST-CE Lab (A1)603 <br> LT:105</td>
+            <td rowspan="2" class="a">1AIML-A : OST-CE Lab (A2)603 <br> LT:105</td>
+            <td rowspan="2" class="c">1CSE-C : OST-CE Lab (C1)607 <br> LT:101</td>
+            <td rowspan="2" class="c">1CSE-C : OST-CE Lab (C2)607 <br> LT:101</td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+        </tr>
+        <tr>
+            <td class="time">04:10-05:00</td>
+            <td class="h">1HBS-H : PSC LT:201</td>
+            <td class="empty"></td>
+        </tr>
+
+    </table> <hr>
+
+    <form class="form1">
+        <label for="fname">First Name:</label><br>
+        <input type="text"; name="fname"; value="first name"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text"; name="lname"; value="last name"><br>
+        <button>Submit</button>
+    </form> <hr>
+
+    <form class="form2">
+        <label for="fname">First name:</label>
+        <input type="text"; name="fname";><br>
+        <label for="lname">Last name</label>
+        <input type="text"><br>
+        <input type="radio">Male 
+        <input type="radio" name="gender">Female <br>
+        <label for="EmID">Employee ID:</label>
+        <input type="text"><br>
+        <label for="Desg">Designation:</label>
+        <input type="text"><br>
+        <label for="Phno">Phone Number:</label>
+        <input type="number"><br>
+        <button>Submit</button>
+    </form> <hr>
+
+    <form class="form3">
+        <label for="fname">First name:</label>
+        <input type="text"; name="fname";><br>
+        <label for="lname">Last name</label>
+        <input type="text"><br>
+        <label for="Dob">Birthday:</label>
+        <input type="text"; value="mm/dd/yyyy"><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender">
+        <label for="gender">Male</label><br>
+        <input type="radio" name="gender">
+        <label for="gender">Female</label><br>
+        <label for="Email">Email:</label>
+        <input type="text"><br><br>
+        <input type="checkbox">
+        <label for="socialm">Use Facebook</label><br>
+        <input type="checkbox">
+        <label for="socialm">Use Twitter</label><br>
+        <button>Submit</button>
+    </form> <hr>
+
+    <form class="form4">
+        <head>Registration Form</head> <br><br>
+        <label for="fname">First Name : </label>
+        <input type="text" value="Enter First Name"> <br>
+        <label for="lname">Last Name : </label>
+        <input type="text" value="Enter Last Name"> <br>
+        <label for="Email">Email : </label>
+        <input type="text" value="Enter Email Address"> <br>
+        <label for="Pw">Password : </label>
+        <input type="text"> <br>
+        <label for="Gender">Gender : </label> <br>
+        <label for="Gmale">Male</label>
+        <input type="radio" name="Gender"> <br>
+        <label for="Gfemale">Female</label>
+        <input type="radio" name="Gender"> <br>
+        <label for="Age">Age : </label>
+        <input type="number"> <br>
+        <label for="pref">Preference : </label> <br>
+        <label for="pref">Acrylic Painting</label>
+        <input type="checkbox" name="pref"> <br>
+        <label for="pref">Oil Painting</label>
+        <input type="checkbox" name="pref"> <br>
+        <label for="pref">Water Color Painting</label>
+        <input type="checkbox" name="pref"> <br>
+        <label for="Occupation">Select Occupation</label>
+        <select name="Occupation">
+            <option value="Student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="Admin">Worker</option>
+        </select> 
+        <br>
+        <label for="bio">Bio</label>
+        <textarea name="bio" placeholder="Share few line about yourself..."></textarea> <br>
+        <input type="reset"> 
+        <input type="submit">
+    </form> <hr>
+</body>
+</html>
