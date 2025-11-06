@@ -1,0 +1,14 @@
+.extension{
+    display: flex;
+    align-items: center;
+    gap: 80px
+}
+
+.extension button{
+    height: 20px;
+    border: 2px solid red;
+    border-radius: 50px;
+    background-color: red;
+    color: white;   
+}
+

@@ -1,0 +1,12 @@
+.name {
+/* border: 2px solid black; */
+background-image: linear-gradient(to right, cyan, rgb(113, 229, 113), rgb(239, 32, 32));
+border-style: solid;
+padding: 10px;
+margin: 10px;
+font-size: 72px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: aqua;
+width: 500px;
+text-align: center;
+}
