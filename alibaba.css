@@ -18,13 +18,13 @@ button{
 .extension{
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 160px;
     justify-content: center;
     height: 35px;
     background: linear-gradient(90deg, #e62e04 0%, #802f09 40%, #db6301 100%);
     color: white;
     font-family: Inter,SF Pro Text,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,PingFang SC,Microsoft YaHei;
-    font-size: large;
+    font-size: 23px;
 }
 
 .extension button{
@@ -34,6 +34,14 @@ button{
     background-color: white;
     color: black;
     padding: 0 12px;
+    font-weight: bold;
+}
+
+.main-wrapper {
+    background-image: url('https://s.alicdn.com/@img/imgextra/i4/O1CN01ustqhi1Tz44lu4arh_!!6000000002452-0-tps-3840-1248.jpg_q60.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 nav {
@@ -42,6 +50,7 @@ nav {
     align-items: flex-start;
     gap: 10px;
     padding: 8px 16px;
+    color: white;
 }
 
 .navL{
@@ -100,7 +109,7 @@ nav {
 }
 
 .alibaba_png{
-    height: 20px;
+    height: 24px;
     width: auto;
     margin-top: 10px;
     margin-left: 10px;
@@ -116,12 +125,8 @@ nav {
 }
 
 .content, .content1, .content2, .content3, .content4{
-    background-color: black;   /* Temporary */
     color: white;
     padding-left: 60px;
-}
-nav{
-    border: 2px solid white;
 }
 
 .content{
@@ -139,7 +144,6 @@ nav{
 }
 
 .content1{
-    background-color: black;
     display: flex;
     align-items: center;
     font-family: Inter,SF Pro Text,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,PingFang SC,Microsoft YaHei;
@@ -189,6 +193,14 @@ nav{
 .content3 input{
     border: none;
     background-color: transparent;
+}
+
+/* Dont know how this work 
+    by ChatGPT */
+.content3 input:focus,
+.content3 input:focus-visible{
+    outline: none;
+    box-shadow: none;
 }
 
 .camera_upload img{
