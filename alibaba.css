@@ -21,7 +21,7 @@ button{
     gap: 160px;
     justify-content: center;
     height: 35px;
-    background: linear-gradient(90deg, #e62e04 0%, #802f09 40%, #db6301 100%);
+    background: linear-gradient(90deg, #e62e04 0%, #702c0d 40%, #db6301 100%);
     color: white;
     font-family: Inter,SF Pro Text,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,PingFang SC,Microsoft YaHei;
     font-size: 23px;
